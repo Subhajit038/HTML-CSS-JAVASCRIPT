@@ -1,0 +1,30 @@
+body{
+    background-image: url("https://www.istockphoto.com/vector/mathematics-background-gm893456274-247146722.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .calculator {
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    text-align: center;
+    border-color: black solid 2px;
+    }
+    #result {
+    width: 100%;
+    height: 20%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+ font-size: 30px;
+ }
+ .buttons {
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-gap: 5px;
+ }
+ button {
+ width: 100%;
+ padding: 10px;
+ font-size: 18px;
+ background-color: aquamarine;
+ }
